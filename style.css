@@ -1,0 +1,338 @@
+.img1{
+  width: 100%;
+  z-index: -9999;
+
+}
+
+nav{
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-image: url(images/JDM\ karachi1.jpg);
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+nav ul li:hover {
+  color: grey;
+}
+
+.logo{
+  width: 50px;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+  left: 2%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+@media screen and (max-width: 5000px) {
+  .sociallinks1{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 85vw;
+  }
+  .container {
+    height: 26vmin;
+    width: 26vmin;
+    font-size: 12px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .container {
+    width: calc(50% - 40px);
+    height: 30vmin;
+    font-size: 14px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    gap: 15px;
+  }
+  .container {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+@media screen and (max-width: 718px) {
+  nav ul li{
+    display: none;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+
+#facebook {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#instagram {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#whatsapp {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#facebook:hover {
+  color: dodgerblue;
+}
+
+#instagram:hover {
+  color: orangered;
+}
+
+#whatsapp:hover {
+  color: green;
+}
+
+@media screen and (max-width: 1305px) {
+  .sociallinks{
+    font-size: 15px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1287px) {
+  .sociallinks{
+    font-size: 14px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1269px) {
+  .sociallinks{
+    font-size: 13px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1251px) {
+  .sociallinks{
+    font-size: 12px;
+  }
+  .sociallinks1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1233px) {
+
+  .sociallinks{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1233px) {
+  .sociallinks1{
+    position: relative;
+    top: -45px;
+    display: block;
+    font-size: 13px;
+  }
+
+  nav{
+    height: 100px;
+  }
+
+  .sociallinks{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 807px) {
+  nav ul li{
+    display: none;
+  }
+
+  nav{
+    height: 80px  ;
+  }
+  .menu{
+    display: block;
+  }
+  .btn-group button{
+    display: none;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.menu{
+  float: right;
+  margin-top: 2%;
+  position: relative;
+  left: 30px;
+  color: white;
+}
+
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+.whatsapp {
+  background: rgb(0, 202, 17);
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.btn-group button {
+  background-image: url(images/JDM\ karachi1.jpg);
+  border: 1px solid rgb(49, 49, 49); /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  position: relative;
+  top: -20px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-image: url(images/JDM\ karachi1.jpg);
+  color: rgb(197, 197, 197);
+}
+@media screen and (max-width: 930px) {
+.btn-group button {
+  font-size: 10px;
+}
+}
